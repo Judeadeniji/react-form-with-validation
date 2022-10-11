@@ -204,13 +204,13 @@ info = JSON.parse(localStorage.getItem('react-form'));
           <div className="form-group">
             <label htmlFor="email">E-Mail</label>
             <input type="email" className={this.state.formErrors.email + ' form-control'} id="email" required placeholder="Enter Your Email" value={this.state.email} onChange={(event) => this.handleUserInput(event)} />
-            { this.state.formErrors.email ?<div className='invalid-feedback has-error'><p>Input a valid enail</p></div> : ''  }
+            { this.state.formErrors.email ?<div className='invalid-feedback has-error'><p>Input a valid Email</p></div> : ''  }
           </div> 
   
           <div className="form-group">
             <label htmlFor="password">Password</label>
             <input type="password" className={this.state.formErrors.password + ' form-control'} id="password" required placeholder="Enter Your Password" value={this.state.password} onChange={(event) => this.handleUserInput(event)} />
-            { this.state.formErrors.password ?<div className='invalid-feedback has-error'><p>Password must be greater than 6 characters</p></div> : ''  }
+            { this.state.formErrors.password ?<div className='invalid-feedback has-error'><p>Password must be greater than 5 characters</p></div> : ''  }
           </div> 
   
           
