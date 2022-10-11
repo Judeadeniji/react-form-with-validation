@@ -187,7 +187,7 @@ info = JSON.parse(localStorage.getItem('react-form'));
   <div className="container my-4">
     <div className="row">
       <div className="col-11 col-lg-9 col-xl-8 mx-auto">
-        <h3 className="font-weight-400 mb-4">Log In</h3>
+        <h3 className="font-weight-400 mb-4">Register</h3>
         <form id="loginForm" onSubmit={this.register}>
         <div className="form-group">
             <label htmlFor="fullName">Full Name</label>
